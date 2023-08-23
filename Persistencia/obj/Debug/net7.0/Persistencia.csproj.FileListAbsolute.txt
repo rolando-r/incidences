@@ -1,0 +1,15 @@
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\bin\Debug\net7.0\Persistencia.deps.json
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\bin\Debug\net7.0\Persistencia.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\bin\Debug\net7.0\Persistencia.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\bin\Debug\net7.0\Dominio.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\bin\Debug\net7.0\Dominio.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\Persistencia.AssemblyInfo.cs
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\Persistencia.csproj.CopyComplete
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\Persistencia.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\refint\Persistencia.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\Persistencia.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Persistencia\obj\Debug\net7.0\ref\Persistencia.dll

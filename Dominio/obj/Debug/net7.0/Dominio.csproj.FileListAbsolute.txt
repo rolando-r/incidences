@@ -1,0 +1,12 @@
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Dominio\obj\Debug\net7.0\ref\Dominio.dll

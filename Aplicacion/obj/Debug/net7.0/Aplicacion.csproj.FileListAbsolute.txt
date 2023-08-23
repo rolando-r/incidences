@@ -1,0 +1,17 @@
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\bin\Debug\net7.0\Aplicacion.deps.json
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\bin\Debug\net7.0\Aplicacion.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\bin\Debug\net7.0\Aplicacion.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\bin\Debug\net7.0\Dominio.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\bin\Debug\net7.0\Persistencia.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\bin\Debug\net7.0\Persistencia.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\bin\Debug\net7.0\Dominio.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.AssemblyReference.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\Aplicacion.AssemblyInfo.cs
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.CopyComplete
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\Aplicacion.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\refint\Aplicacion.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\Aplicacion.pdb
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\Aplicacion\obj\Debug\net7.0\ref\Aplicacion.dll
