@@ -1,3 +1,5 @@
+using Aplicacion.UnitOfWork;
+using Dominio.Interfaces;
 using iText.Kernel.XMP.Options;
 
 namespace ApiIncidencias.Extensions;
@@ -11,4 +13,8 @@ public static class ApplicationServiceExtension
             .AllowAnyMethod()
             .AllowAnyHeader());
     });
+    public static void AddAplicationServices(this IServiceCollection services)
+    {
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
+    }
 }
