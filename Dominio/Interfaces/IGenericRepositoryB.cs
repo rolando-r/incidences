@@ -1,9 +1,8 @@
 using System.Linq.Expressions;
-namespace Dominio.Interfaces
+namespace Dominio.Interfaces;
+public interface IGenericRepositoryB<T> where T : BaseEntityA
 {
-    public interface IGenericRepositoryB<T> where T : BaseEntity
-    {
-        Task<T> GetByIdAsync(string id);
+        Task<T> GetByIdAsync(int id);
         Task<IEnumerable<T>> GetAllAsync();
         IEnumerable<T> Find(Expression<Func<T, bool>> expression);
         Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize,string search);
@@ -11,6 +10,5 @@ namespace Dominio.Interfaces
         void AddRange(IEnumerable<T> entities);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);
-        void Update(T entity); 
-    }
+        void Update(T entity);        
 }
