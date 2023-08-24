@@ -14,7 +14,6 @@ namespace Aplicacion.UnitOfWork
         private PersonaRepository _personas;
         private SalonRepository _salones;
         private TipoPersonaRepository _tipopersonas;
-        private TrainerSalonRepository _trainersalones;
         private RolRepository _roles;
         public UnitOfWork(IncidencesContext _context)
         {
@@ -107,17 +106,6 @@ namespace Aplicacion.UnitOfWork
                     _tipopersonas = new TipoPersonaRepository(context);
                 }
                 return _tipopersonas;
-            }
-        }
-        public ITrainerSalonRepository TrainerSalones
-        {
-            get
-            {
-                if (_trainersalones == null)
-                {
-                    _trainersalones = new TrainerSalonRepository(context);
-                }
-                return _trainersalones;
             }
         }
         public ISalonRepository Salones

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj": {}
+    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj": {
+    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
+        "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
         "projectName": "ApiIncidencias",
-        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
+        "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
         "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\obj\\",
+        "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,15 +20,14 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj"
+              "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -43,6 +42,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[7.0.10, )"
@@ -85,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj": {
+    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\obj\\",
+        "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -107,11 +110,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj"
+              "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj"
+              "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -145,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj": {
+    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj",
+        "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\obj\\",
+        "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -212,14 +215,14 @@
         }
       }
     },
-    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj": {
+    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj",
+        "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\obj\\",
+        "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -234,8 +237,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj"
+              "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Dominio\\Dominio.csproj"
               }
             }
           }

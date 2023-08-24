@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ORuCCXe7rvSW91IIa7X6WZSh2FVVtF/DIJP19pd9PVG5Cx9LtCj5NN5fHAx+urwc+tgK0mVlUkWEY7BHa65vaQ==",
+  "dgSpecHash": "P9dVRpFGQ5WiJHI+MSdedCsSh2d0jdgWSenQ73S7jABuORqQ1v1bl5DEcGl8jZh+w89/R6w98FJkNSB6JcSs1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
+  "projectFilePath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\roola\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\roola\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
@@ -14,7 +16,7 @@
     "C:\\Users\\roola\\.nuget\\packages\\itext7.pdfhtml\\5.0.1\\itext7.pdfhtml.5.0.1.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.10\\microsoft.aspnetcore.authentication.jwtbearer.7.0.10.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
-    "C:\\Users\\roola\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\roola\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.1.0\\microsoft.dotnet.platformabstractions.1.1.0.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

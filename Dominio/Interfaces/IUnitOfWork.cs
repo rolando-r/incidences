@@ -10,7 +10,5 @@ public interface IUnitOfWork
     IRolRepository Roles { get; }
     ISalonRepository Salones { get; }
     ITipoPersonaRepository TipoPersonas { get; }
-    ITrainerSalonRepository TrainerSalones { get; }
-
     Task<int> SaveAsync();
 }
