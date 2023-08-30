@@ -7,14 +7,9 @@ namespace Aplicacion.UnitOfWork
     {
         private readonly IncidencesContext context;
         private PaisRepository _paises;
-        private CiudadRepository _ciudades;
-        private DepartamentoRepository _departamentos;
-        private GeneroRepository _generos;
-        private MatriculaRepository _matriculas;
-        private PersonaRepository _personas;
-        private SalonRepository _salones;
-        private TipoPersonaRepository _tipopersonas;
         private RolRepository _roles;
+        private PersonaRepository _personas;
+        private IUsuarioRepository _usuarios;
         public UnitOfWork(IncidencesContext _context)
         {
             context = _context;
@@ -30,49 +25,15 @@ namespace Aplicacion.UnitOfWork
                 return _paises;
             }
         }
-        
-        public ICiudadRepository Ciudades
+        public IRolRepository Roles
         {
             get
             {
-                if (_ciudades == null)
+                if (_roles == null)
                 {
-                    _ciudades = new CiudadRepository(context);
+                    _roles = new RolRepository(context);
                 }
-                return _ciudades;
-            }
-        }
-        public IDepartamentoRepository Departamentos
-        {
-            get
-            {
-                if (_departamentos == null)
-                {
-                    _departamentos = new DepartamentoRepository(context);
-                }
-                return _departamentos;
-            }
-        }
-        public IGeneroRepository Generos
-        {
-            get
-            {
-                if (_generos == null)
-                {
-                    _generos = new GeneroRepository(context);
-                }
-                return _generos;
-            }
-        }
-        public IMatriculaRepository Matriculas
-        {
-            get
-            {
-                if (_matriculas == null)
-                {
-                    _matriculas = new MatriculaRepository(context);
-                }
-                return _matriculas;
+                return _roles;
             }
         }
         public IPersonaRepository Personas
@@ -86,37 +47,15 @@ namespace Aplicacion.UnitOfWork
                 return _personas;
             }
         }
-        public IRolRepository Roles
+        public IUsuarioRepository Usuarios
         {
             get
             {
-                if (_roles == null)
+                if (_usuarios == null)
                 {
-                    _roles = new RolRepository(context);
+                    _usuarios = new UsuarioRepository(context);
                 }
-                return _roles;
-            }
-        }
-        public ITipoPersonaRepository TipoPersonas
-        {
-            get
-            {
-                if (_tipopersonas == null)
-                {
-                    _tipopersonas = new TipoPersonaRepository(context);
-                }
-                return _tipopersonas;
-            }
-        }
-        public ISalonRepository Salones
-        {
-            get
-            {
-                if (_salones == null)
-                {
-                    _salones = new SalonRepository(context);
-                }
-                return _salones;
+                return _usuarios;
             }
         }
         public async Task<int> SaveAsync()

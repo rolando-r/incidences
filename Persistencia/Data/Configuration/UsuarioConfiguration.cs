@@ -8,13 +8,15 @@ namespace Persistencia.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
+            // Aquí puedes configurar las propiedades de la entidad Marca
+            // utilizando el objeto 'builder'.
             builder.ToTable("usuario");
             builder.Property(p => p.Id)
                     .IsRequired();
             builder.Property(p => p.Username)
                     .IsRequired()
                     .HasMaxLength(200);
-
+                    
             builder.HasIndex(p => new {
                 p.Username,
                 p.Email
@@ -28,20 +30,20 @@ namespace Persistencia.Data.Configuration
             builder
             .HasMany(p => p.Roles)
             .WithMany(p => p.Usuarios)
-            .UsingEntity<UsuarioRoles>(
+            .UsingEntity<UsuariosRoles>(
                 j => j
-                .HasOne(pt => pt.Rol)
-                .WithMany(t => t.UsuariosRoles)
-                .HasForeignKey(pt => pt.UsuarioId),
+                    .HasOne(pt => pt.Rol)
+                    .WithMany(t => t.UsuariosRoles)
+                    .HasForeignKey(pt => pt.RolId),
                 j => j
-                .HasOne(pt => pt.Usuario)
-                .WithMany(p => p.UsuariosRoles)
-                .HasForeignKey(pt => pt.UsuarioId),
+                    .HasOne(pt => pt.Usuario)
+                    .WithMany(p => p.UsuariosRoles)
+                    .HasForeignKey(pt => pt.UsuarioId),
                 j =>
                 {
-                    j.HasKey(t => new { t.UsuarioId, t.RolId});
+                    j.HasKey(t => new { t.UsuarioId, t.RolId });
                 });
-            
+
         }
     }
 }

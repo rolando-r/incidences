@@ -8,7 +8,8 @@ public class Pager<T> where T : class
     public int Total { get; private set; }
     public IEnumerable<T> Registers { get; private set; }
 
-    public Pager(IEnumerable<T> registers, int total, int pageIndex, int pageSize, string search)
+    public Pager(IEnumerable<T> registers, int total, int pageIndex,
+        int pageSize, string search)
     {
         Registers = registers;
         Total = total;

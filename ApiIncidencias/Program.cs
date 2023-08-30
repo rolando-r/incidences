@@ -1,7 +1,10 @@
 using System.Reflection;
+using System.Text;
 using ApiIncidencias.Extensions;
 using AspNetCoreRateLimit;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Persistencia;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,10 +21,20 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureRatelimiting();
 builder.Services.ConfigureApiVersioning();
+
+var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context"));
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>{
+    opt.TokenValidationParameters = new TokenValidationParameters{
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = key,
+        ValidateAudience = false,
+        ValidateIssuer = false
+    };
+});
+
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 builder.Services.ConfigureCors();
 builder.Services.AddAplicationServices();
-
 builder.Services.AddDbContext<IncidencesContext>(options =>
 {
     string connectionString = builder.Configuration.GetConnectionString("ConexMysql");

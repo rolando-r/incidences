@@ -31,22 +31,6 @@ namespace Persistencia.Data.Configuration
             .WithMany(p => p.Personas)
             .HasForeignKey(p => p.IdTipoPerFk);
             
-            builder
-            .HasMany(p => p.Roles)
-            .WithMany(p => p.Usuarios)
-            .UsingEntity<PersonaRoles>(
-                j => j
-                    .HasOne(pt => pt.Rol)
-                    .WithMany(t => t.PersonaRoles)
-                    .HasForeignKey(pt => pt.RolId),
-                j => j
-                    .HasOne(pt => pt.Persona)
-                    .WithMany(p => p.PersonaRoles)
-                    .HasForeignKey(pt => pt.UsuarioId),
-                j =>
-                {
-                    j.HasKey(t => new { t.UsuarioId, t.RolId });
-                });
         }
     }
 }

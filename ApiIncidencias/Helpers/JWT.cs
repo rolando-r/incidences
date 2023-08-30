@@ -1,4 +1,5 @@
 namespace ApiIncidencias.Helpers;
+
 public class JWT
 {
     public string Key { get; set; }
