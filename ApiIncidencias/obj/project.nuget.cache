@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ziSks3oYxBBhqcFfceEd7grrxU2wqqoFaaLfYD1scUS2lo8a3uYNrlIf6x9wbeaEanwGU3M1pAcVZM72l+ETlA==",
+  "dgSpecHash": "mUbf6YAH3vZdOIAfPFNjpzcMIrX2uLAA9+VohglzfnRGWR7xyJPQzmt7yD5qylg4tz39iRNEz2K/ddaKUz1HPw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
+  "projectFilePath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roola\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

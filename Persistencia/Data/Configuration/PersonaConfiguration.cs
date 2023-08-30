@@ -33,7 +33,7 @@ namespace Persistencia.Data.Configuration
             
             builder
             .HasMany(p => p.Roles)
-            .WithMany(p => p.Personas)
+            .WithMany(p => p.Usuarios)
             .UsingEntity<PersonaRoles>(
                 j => j
                     .HasOne(pt => pt.Rol)

@@ -18,5 +18,4 @@ public class Persona : BaseEntity
     public ICollection<Matricula> Matriculas { get; set; }
     public ICollection<TrainerSalon> TrainerSalones { get; set; }
     public ICollection<Rol> Roles { get; set; } = new HashSet<Rol>();
-    public ICollection<PersonaRoles> PersonaRoles { get; set; }
 }

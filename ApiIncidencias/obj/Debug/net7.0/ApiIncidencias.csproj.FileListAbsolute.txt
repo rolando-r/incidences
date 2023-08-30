@@ -71,3 +71,7 @@ C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incide
 C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\ApiIncidencias\obj\Debug\net7.0\ApiIncidencias.pdb
 C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\ApiIncidencias\obj\Debug\net7.0\ApiIncidencias.genruntimeconfig.cache
 C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\ApiIncidencias\obj\Debug\net7.0\ref\ApiIncidencias.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\ApiIncidencias\bin\Debug\net7.0\AspNetCoreRateLimit.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\ApiIncidencias\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\ApiIncidencias\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\roola\OneDrive\Escritorio\Programación\Proyectos Campus\NETCore\incidences\ApiIncidencias\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll

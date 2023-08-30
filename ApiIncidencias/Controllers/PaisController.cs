@@ -27,7 +27,7 @@ public class PaisController : BaseApiController
         return Ok(regiones);
     }*/
     [HttpGet]
-     [MapToApiVersion("1.0")]
+    [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async  Task<ActionResult<IEnumerable<PaisDto>>> Get()
