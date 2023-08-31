@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion", "Aplicacion\Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiIncidencias", "ApiIncidencias\ApiIncidencias.csproj", "{9AA48686-14BE-4E46-A534-2B9C279F6569}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seguridad", "Seguridad\Seguridad.csproj", "{6C830220-A545-4E9D-BB5C-3D0BB52C74C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{9AA48686-14BE-4E46-A534-2B9C279F6569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AA48686-14BE-4E46-A534-2B9C279F6569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AA48686-14BE-4E46-A534-2B9C279F6569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C830220-A545-4E9D-BB5C-3D0BB52C74C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C830220-A545-4E9D-BB5C-3D0BB52C74C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C830220-A545-4E9D-BB5C-3D0BB52C74C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C830220-A545-4E9D-BB5C-3D0BB52C74C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -6020,11 +6020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
+      "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
       "projectName": "ApiIncidencias",
-      "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
+      "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\ApiIncidencias.csproj",
       "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\obj\\",
+      "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\ApiIncidencias\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6033,15 +6033,14 @@
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj"
+            "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

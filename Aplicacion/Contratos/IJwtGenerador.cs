@@ -1,7 +1,7 @@
 using Dominio;
 
 namespace Aplicacion.Contratos;
-public class IJwtGenerador
+public interface IJwtGenerador
 {
     string CrearToken(Usuario usuario);
 }

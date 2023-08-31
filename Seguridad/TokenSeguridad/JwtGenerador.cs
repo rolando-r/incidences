@@ -1,4 +1,3 @@
-
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -26,6 +25,5 @@ public class JwtGenerador : IJwtGenerador
         var tokenManejador = new JwtSecurityTokenHandler();
         var token = tokenManejador.CreateToken(tokenDescripcion);
         return tokenManejador.WriteToken(token);
-
     }
 }
