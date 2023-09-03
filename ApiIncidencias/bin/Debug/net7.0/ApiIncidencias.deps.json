@@ -15,6 +15,7 @@
           "Microsoft.AspNetCore.Mvc.Versioning": "5.1.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.7",
           "Microsoft.EntityFrameworkCore.Design": "7.0.10",
+          "Seguridad": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -984,6 +985,15 @@
         "runtime": {
           "Persistencia.dll": {}
         }
+      },
+      "Seguridad/1.0.0": {
+        "dependencies": {
+          "Aplicacion": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.10"
+        },
+        "runtime": {
+          "Seguridad.dll": {}
+        }
       }
     }
   },
@@ -1774,6 +1784,11 @@
       "sha512": ""
     },
     "Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Seguridad/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

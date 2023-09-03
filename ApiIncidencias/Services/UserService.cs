@@ -133,14 +133,12 @@ public class UserService : IUserService
         }
         return $"Credenciales incorrectas para el usuario {usuario.Username}.";
     }
-
-    // 
     public async Task<DatosUsuarioDto> GetTokenAsync(LoginDto model)
     {
         DatosUsuarioDto datosUsuarioDto = new DatosUsuarioDto();
         var usuario = await _unitOfWork.Usuarios
                     .GetByUsernameAsync(model.Username);
-        if (usuario == null) // Primer validacion del usuario
+        if (usuario == null)
         {
             datosUsuarioDto.EstaAutenticado = false;
             datosUsuarioDto.Mensaje = $"No existe ningún usuario con el username {model.Username}.";
@@ -148,7 +146,7 @@ public class UserService : IUserService
         }
 
         var result = _passwordHasher.VerifyHashedPassword(usuario, usuario.Password, model.Password);
-        if (result == PasswordVerificationResult.Success) // Validacion de la contraseña
+        if (result == PasswordVerificationResult.Success)
         {
 
             datosUsuarioDto.Mensaje = "Ok";
@@ -157,12 +155,14 @@ public class UserService : IUserService
             datosUsuarioDto.Email = usuario.Username;
             datosUsuarioDto.Token = _jwtGenerador.CrearToken(usuario);
             return datosUsuarioDto;
+
         }
         datosUsuarioDto.EstaAutenticado = false;
         datosUsuarioDto.Mensaje = $"Credenciales incorrectas para el usuario {usuario.Username}.";
         return datosUsuarioDto;
+
     }
-    private JwtSecurityToken CreateJwtToken(Usuario usuario)
+    private JwtSecurityToken CreateJwtToken(Usuario usuario)       
     {
         var roles = usuario.Roles;
         var roleClaims = new List<Claim>();
