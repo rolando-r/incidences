@@ -1,3 +1,4 @@
+using ApiIncidencias.Services;
 using Aplicacion.UnitOfWork;
 using AspNetCoreRateLimit;
 using Dominio.Interfaces;
@@ -19,6 +20,7 @@ public static class ApplicationServiceExtension
     public static void AddAplicationServices(this IServiceCollection services)
     {
         services.AddScoped<IUnitOfWork, UnitOfWork>();
+        // services.AddScoped<IUserService, UserService>();
     }
     public static void ConfigureRatelimiting(this IServiceCollection services)
     {
