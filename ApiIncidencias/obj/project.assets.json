@@ -1904,20 +1904,6 @@
         "runtime": {
           "bin/placeholder/Persistencia.dll": {}
         }
-      },
-      "Seguridad/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Aplicacion": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.10"
-        },
-        "compile": {
-          "bin/placeholder/Seguridad.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Seguridad.dll": {}
-        }
       }
     }
   },
@@ -6014,11 +6000,6 @@
       "type": "project",
       "path": "../Persistencia/Persistencia.csproj",
       "msbuildProject": "../Persistencia/Persistencia.csproj"
-    },
-    "Seguridad/1.0.0": {
-      "type": "project",
-      "path": "../Seguridad/Seguridad.csproj",
-      "msbuildProject": "../Seguridad/Seguridad.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6030,7 +6011,6 @@
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
-      "Seguridad >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -6062,9 +6042,6 @@
           "projectReferences": {
             "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj": {
               "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Aplicacion\\Aplicacion.csproj"
-            },
-            "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Proyectos Campus\\NETCore\\incidences\\Seguridad\\Seguridad.csproj"
             }
           }
         }

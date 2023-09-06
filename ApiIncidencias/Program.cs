@@ -20,18 +20,9 @@ builder.Services.AddControllers(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureRatelimiting();
-builder.Services.ConfigureApiVersioning();
+ builder.Services.ConfigureApiVersioning(); 
 
-var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context"));
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>{
-    opt.TokenValidationParameters = new TokenValidationParameters{
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = key,
-        ValidateAudience = false,
-        ValidateIssuer = false
-    };
-});
-
+builder.Services.AddJwt(builder.Configuration);
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 builder.Services.ConfigureCors();
 builder.Services.AddAplicationServices();
@@ -55,6 +46,7 @@ app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
 
 app.UseIpRateLimiting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 

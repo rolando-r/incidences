@@ -1,6 +1,7 @@
 using ApiIncidencias.Dtos;
 
 namespace ApiIncidencias.Services;
+
 public interface IUserService
 {
     Task<string> RegisterAsync(RegisterDto model);

@@ -13,6 +13,7 @@ namespace Persistencia.Data.Configuration
             builder.ToTable("usuario");
             builder.Property(p => p.Id)
                     .IsRequired();
+                    
             builder.Property(p => p.Username)
                     .IsRequired()
                     .HasMaxLength(200);

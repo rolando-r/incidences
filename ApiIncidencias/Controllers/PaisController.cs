@@ -29,7 +29,7 @@ public class PaisController : BaseApiController
         return Ok(regiones);
     }*/
     [HttpGet]
-    [Authorize]
+    [Authorize(Roles = "Administrador")]
     [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -38,7 +38,8 @@ public class PaisController : BaseApiController
         var paises = await _unitOfWork.Paises.GetAllAsync();
         return _mapper.Map<List<PaisDto>>(paises);
     }
-    [HttpGet]
+    [HttpGet("Pager")]
+    [Authorize]
     [MapToApiVersion("1.1")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]

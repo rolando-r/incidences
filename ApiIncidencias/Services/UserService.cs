@@ -3,7 +3,6 @@ using System.Security.Claims;
 using System.Text;
 using ApiIncidencias.Dtos;
 using ApiIncidencias.Helpers;
-using Aplicacion.Contratos;
 using Dominio;
 using Dominio.Interfaces;
 using Microsoft.AspNetCore.Identity;
@@ -17,15 +16,13 @@ public class UserService : IUserService
     private readonly JWT _jwt;
     private readonly IUnitOfWork _unitOfWork;
     private readonly IPasswordHasher<Usuario> _passwordHasher;
-    private readonly IJwtGenerador _jwtGenerador;
 
     public UserService(IUnitOfWork unitOfWork, IOptions<JWT> jwt,
-        IPasswordHasher<Usuario> passwordHasher, IJwtGenerador jwtGenerador)
+        IPasswordHasher<Usuario> passwordHasher)
     {
         _jwt = jwt.Value;
         _unitOfWork = unitOfWork;
         _passwordHasher = passwordHasher;
-        _jwtGenerador = jwtGenerador;
     }
 
     public async Task<string> RegisterAsync(RegisterDto registerDto)
@@ -151,9 +148,11 @@ public class UserService : IUserService
 
             datosUsuarioDto.Mensaje = "Ok";
             datosUsuarioDto.EstaAutenticado = true;
+            JwtSecurityToken jwtSecurityToken = CreateJwtToken(usuario);
+            datosUsuarioDto.Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
             datosUsuarioDto.UserName = usuario.Username;
             datosUsuarioDto.Email = usuario.Username;
-            datosUsuarioDto.Token = _jwtGenerador.CrearToken(usuario);
+            //datosUsuarioDto.Token = _jwtGenerador.CrearToken(usuario);
             return datosUsuarioDto;
 
         }
@@ -162,7 +161,7 @@ public class UserService : IUserService
         return datosUsuarioDto;
 
     }
-    private JwtSecurityToken CreateJwtToken(Usuario usuario)       
+    private JwtSecurityToken CreateJwtToken(Usuario usuario)
     {
         var roles = usuario.Roles;
         var roleClaims = new List<Claim>();
@@ -201,6 +200,4 @@ public class UserService : IUserService
         }
         return null;
     }
-
-
 }
